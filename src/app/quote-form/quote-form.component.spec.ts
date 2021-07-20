@@ -12,7 +12,7 @@ describe('QuoteFormComponent', () => {
     })
     .compileComponents();
   });
-
+ 
   beforeEach(() => {
     fixture = TestBed.createComponent(QuoteFormComponent);
     component = fixture.componentInstance;
