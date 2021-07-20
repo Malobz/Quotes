@@ -13,8 +13,7 @@
                             <h4 class="card-title" appHighlight>{{quote.quote}} </h4>
                             <button (click)='toggleDetails(i)' class="btn btn-primary">More</button>
                             <app-quotedetails *ngIf='quote.showDescription' [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quotedetails>
-                            <!-- <span class="card-subtitle mb-2">Posted by: <span id="name">{{quote.Name}}</span><span id="date"> on: <span id="datecolor">{{quote.completeDate|date:'short'}}</span></span>
-                            </span> -->
+
                         </div>
                     </div>
                 </div>
