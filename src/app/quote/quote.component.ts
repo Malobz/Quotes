@@ -22,11 +22,7 @@ export class QuoteComponent implements OnInit {
     quote.completeDate = new Date(quote.completeDate)
     this.quotes.push(quote)
   }
-  // completeQuote(isComplete, index){
-  //   if (isComplete) {
-  //     this.quotes.splice(index,1);
-  //   }
-  // }
+  
 
   deleteQuote(isComplete, index){
     if (isComplete) {
