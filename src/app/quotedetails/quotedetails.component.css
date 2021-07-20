@@ -1,0 +1,53 @@
+#delete {
+    font-size: 16px;
+    margin-right: 2%;
+}
+
+#del {
+    margin-left: 150px;
+    font-size: 16px;
+}
+
+#like {
+    font-size: 16px;
+}
+
+#dislike {
+    font-size: 16px;
+}
+
+.hate {
+    margin-left: 10px;
+    background-color: brown;
+    color: white;
+}
+
+p {
+    margin-top: 5px;
+}
+
+.hid {
+    color: yellow;
+}
+
+
+/* #date {
+    float: right;
+    font-size: 14px;
+} */
+
+
+/* hr {
+    background-color: darkcyan;
+} */
+
+#buttons {
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+
+/* #when {
+    float: right;
+    font-family: 'Handlee', cursive;
+} */
